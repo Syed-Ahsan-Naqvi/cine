@@ -1,0 +1,95 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 05/07/2018 11:26
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg"),
+       url("../fonts/ser1.png") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+.flaticon-event:before { content: "\f100"; }
+.flaticon-image:before { content: "\f101"; }
+.flaticon-wedding-photo:before { content: "\f102"; }
+.flaticon-wedding::before { content: "\f103"; }
+
+
+@font-face {
+  font-family: "MyIcons1";
+  src: url("../fonts/icomoon1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyIcons2";
+  src: url("../fonts/icomoon2.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyIcons3";
+  src: url("../fonts/icomoon3.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyIcons5";
+  src: url("../fonts/icomoon5.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* icon-ser1 uses MyIcons1 */
+.icon-ser1:before {
+  font-family: "MyIcons1";
+  content: "\e900"; /* check from icomoon style.css */
+    font-style: normal; /* <-- this prevents tilt */
+  display: inline-block;
+}
+
+/* icon-ser2 uses MyIcons2 */
+.icon-ser2:before {
+  font-family: "MyIcons2";
+  content: "\e900"; /* or whatever code is defined in second icon font */
+    font-style: normal; /* <-- this prevents tilt */
+  display: inline-block;
+}
+
+/* icon-ser3 uses MyIcons2 */
+.icon-ser3:before {
+  font-family: "MyIcons3";
+  content: "\e900"; /* or whatever code is defined in second icon font */
+    font-style: normal; /* <-- this prevents tilt */
+  display: inline-block;
+}
+
+/* icon-ser3 uses MyIcons2 */
+.icon-ser5:before {
+  font-family: "MyIcons5";
+  content: "\e900"; /* or whatever code is defined in second icon font */
+    font-style: normal; /* <-- this prevents tilt */
+  display: inline-block;
+}
